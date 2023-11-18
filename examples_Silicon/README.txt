@@ -25,14 +25,6 @@ The tutorial supposes that you already have all codes and computer set up in you
 	
 	(1) YamboCalculation: simple/bare Yambo
 		(1.1) how to inspect outputs
-        
-        
-        
-AAA: if the magic function %aiida is not found: https://github.com/aiidateam/aiida-core/issues/480, 
-     PLEASE USE (https://aiida-core-pdf.readthedocs.io/en/latest/intro/installation.html) :
-     
-     from aiida import load_profile, orm
-     load_profile()
 
 
 
