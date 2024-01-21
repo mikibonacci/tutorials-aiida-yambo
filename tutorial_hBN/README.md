@@ -4,7 +4,7 @@ Supported calculations: HF, GW, BSE, IP-RPA optics.
 Features: automated workflows, QP merging, Wannier90 interface.
 
 The tutorial is structured in jupyter notebook, interactive python shells.
-Prerequisite: AiiDA tutorial: https://aiida-tutorials.readthedocs.io/en/latest/
+Prerequisite: [AiiDA tutorials](https://aiida-tutorials.readthedocs.io/en/latest/)
             
 The tutorial supposes that you already have all codes and computer set up in your installation. 
 
