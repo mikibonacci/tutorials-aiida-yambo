@@ -1,0 +1,8 @@
+pw: pw-6.8-p2w_ham@hydralogin
+pw2wannier90: pw2wannier90-6.8-p2w_ham@hydralogin
+projwfc: projwfc-7.1@hydralogin
+wannier90: w90@hydralogin
+yambo: yambo-5.1@hydralogin
+p2y: p2y-5.1@hydralogin
+ypp: ypp-5.1@hydralogin
+gw2wannier90: gw2wannier90@hydralogin

@@ -1,0 +1,7 @@
+max_wallclock_seconds: 3600
+prepend_text: export OMP_NUM_THREADS=1
+queue_name: s3par
+resources:
+  num_cores_per_mpiproc: 1
+  num_machines: 1
+  num_mpiprocs_per_machine: 1
