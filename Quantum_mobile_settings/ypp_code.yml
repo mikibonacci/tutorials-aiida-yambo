@@ -1,0 +1,12 @@
+---
+label: 'ypp-5.2.1'
+description: 'ypp v5.2.1'
+input_plugin: yambo.ypp
+remote_abs_path: /home/max/.conda/envs/yambo/yambo-5.2.1/bin/ypp
+computer: local_slurm
+prepend_text: |
+   ulimit -s unlimited
+   eval "$(conda shell.bash hook)"
+   conda activate yambo
+   export OMP_NUM_THREADS=1
+append_text: ' '

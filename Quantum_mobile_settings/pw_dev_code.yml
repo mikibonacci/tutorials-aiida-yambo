@@ -1,0 +1,12 @@
+---
+label: 'pw_develop'
+description: 'pw dev'
+input_plugin: quantumespresso.pw
+remote_abs_path: /home/max/.conda/envs/qespresso/qe-develop/bin/pw.x
+computer: local_slurm
+prepend_text: |
+   ulimit -s unlimited
+   eval "$(conda shell.bash hook)"
+   conda activate qespresso
+   export OMP_NUM_THREADS=1
+append_text: ' '

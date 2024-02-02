@@ -1,0 +1,12 @@
+---
+label: 'wannier90'
+description: 'wannier90'
+input_plugin: wannier90.wannier90
+remote_abs_path: /home/max/.conda/envs/wannier90/bin/wannier90.x
+computer: local_slurm
+prepend_text: |
+   ulimit -s unlimited
+   eval "$(conda shell.bash hook)"
+   conda activate wannier90
+   export OMP_NUM_THREADS=1
+append_text: ' '
