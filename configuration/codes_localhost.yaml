@@ -1,8 +1,8 @@
 pwcode_id: qe.pw@local_slurm
 yambocode_id: yambo-5.2.1@local_slurm
 yamboprecode_id: p2y-5.2.1@local_slurm
-pw2wannier90: pw2wannier90-6.8-p2w_ham@hydralogin
-projwfc: projwfc-7.1@hydralogin
-wannier90: w90@hydralogin
-ypp: ypp-5.1@hydralogin
-gw2wannier90: gw2wannier90@hydralogin
+pw2wannier90: pw2wannier90_develop@local_slurm 
+projwfc: projwfc_develop@local_slurm 
+wannier90: wannier90@local_slurm 
+ypp: ypp-5.2.1@local_slurm
+gw2wannier90: gw2wannier90@local_slurm 
