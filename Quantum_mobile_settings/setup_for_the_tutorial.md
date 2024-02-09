@@ -80,6 +80,12 @@ cd /home/max
 git clone https://github.com/mikibonacci/tutorials-aiida-yambo.git
 ```
 
+### install the pseudo
+
+```bash
+aiida-pseudo install pseudo-dojo -f upf
+```
+
 ### last step: install the codes in the aiida db
 
 ```bash
