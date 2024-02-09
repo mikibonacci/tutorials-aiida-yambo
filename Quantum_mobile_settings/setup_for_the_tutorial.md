@@ -83,6 +83,7 @@ git clone https://github.com/mikibonacci/tutorials-aiida-yambo.git
 ### install the pseudo
 
 ```bash
+aiida-pseudo install sssp -x PBEsol
 aiida-pseudo install pseudo-dojo -f upf
 ```
 
