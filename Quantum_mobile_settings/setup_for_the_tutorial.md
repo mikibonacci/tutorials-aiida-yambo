@@ -1,4 +1,7 @@
-# QM modifications to support yambo-5.2.1 and tutorials.
+# Quantum Mobile modifications to support yambo-5.2.1 and tutorials.
+
+We suppose you downloaded [this](https://quantum-mobile.readthedocs.io/en/latest/releases/versions/23.04.03.html) version of the Quantum Mobile. 
+Only x86-based architectures are supported in yambo (so, no M1, M2, M3 apple chips).
 
 - set at least 2 cores (better >=4)
 
