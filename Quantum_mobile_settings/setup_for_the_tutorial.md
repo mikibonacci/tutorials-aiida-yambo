@@ -1,6 +1,6 @@
 # QM modifications to support yambo-5.2.1 and tutorials.
 
-- set at least 2 cores
+- set at least 2 cores (better >=4)
 
 - open the terminal
 
