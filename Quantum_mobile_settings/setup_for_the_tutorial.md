@@ -57,7 +57,7 @@ conda install gfortran=13.2.0
 make all
 ```
 
-## `aiida` environment. Prepare the codes and the tutorial-files:
+## (2) `aiida` environment. Prepare the codes and the tutorial-files:
 
 ```bash
 workon aiida
