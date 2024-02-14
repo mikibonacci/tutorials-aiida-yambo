@@ -96,6 +96,7 @@ git pull
 
 ```bash
 aiida-pseudo install sssp -x PBEsol
+aiida-pseudo install sssp -x PBEsol -v 1.2
 aiida-pseudo install pseudo-dojo -f upf
 ```
 
