@@ -21,7 +21,7 @@ conda activate yambo
 ### download version of yambo:
 ```bash
 cd ~/.conda/envs/yambo
-git clone https://github.com/yambo-code/yambo.git 
+git clone https://github.com/yambo-code/yambo.git yambo-5.2.1
 cd yambo-5.2.1
 git checkout 5.2.1
 ```
@@ -59,6 +59,8 @@ git checkout develop
 conda install gfortran=13.2.0
 ./configure
 make all
+rm .git -rf
+rm external/ -rf
 ```
 
 ## (2) `aiida` environment. Prepare the codes and the tutorial-files:
@@ -75,13 +77,19 @@ git clone https://github.com/yambo-code/aiida-yambo.git
 pip install -e aiida-yambo/
 git clone https://github.com/aiidaplugins/aiida-yambo-wannier90.git
 pip install -e aiida-yambo-wannier90/
+git clone https://github.com/aiidateam/aiida-wannier90-workflows.git
+pip install -e aiida-wannier90-workflows/
+pip install aiida-quantumespresso==4.4.0
 verdi daemon stop; verdi -p generic storage migrate
+verdi daemon start
 ```
 
 ### Download the files:
 ```bash
-cd /home/max
+cd /home/max/Desktop/
 git clone https://github.com/mikibonacci/tutorials-aiida-yambo.git
+cd /home/max/Desktop/tutorials-aiida-yambo
+git pull
 ```
 
 ### install the pseudo
@@ -94,7 +102,7 @@ aiida-pseudo install pseudo-dojo -f upf
 ### last step: install the codes in the aiida db
 
 ```bash
-cd tutorials-aiida-yambo/Quantum_mobile_settings
+cd /home/max/Desktop/tutorials-aiida-yambo/Quantum_mobile_settings
 verdi code setup --config yambo_code.yml
 verdi code setup --config p2y_code.yml
 verdi code setup --config ypp_code.yml
@@ -104,5 +112,4 @@ verdi code setup --config projwfc_dev_code.yml
 verdi code setup --config gw2wannier90_code.yml
 verdi code setup --config wannier90_code.yml
 ```
-
 
