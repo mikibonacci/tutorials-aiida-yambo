@@ -1,0 +1,8 @@
+pw: pw_develop@local_slurm
+yambo: yambo-5.2.1@local_slurm
+p2y: p2y-5.2.1@local_slurm
+pw2wannier90: pw2wannier90_develop@local_slurm 
+projwfc: projwfc_develop@local_slurm 
+wannier90: wannier90@local_slurm 
+ypp: ypp-5.2.1@local_slurm
+gw2wannier90: gw2wannier90-0.2@local_slurm 

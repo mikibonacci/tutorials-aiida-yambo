@@ -4,7 +4,7 @@ We suppose you downloaded [this](https://quantum-mobile.readthedocs.io/en/latest
 Then, you can proceed with the following instructions to have a QM which is compatible with the tutorials.
 Only x86-based architectures are supported in yambo (so, no M1, M2, M3 apple chips).
 
-- set at least 2 cores (better >=4)
+- set at least 2 cores (better >=4, and 8192 MB for the base memory)
 
 - open the terminal
 
