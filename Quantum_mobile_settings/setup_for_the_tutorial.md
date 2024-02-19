@@ -75,11 +75,14 @@ mkdir plugins
 cd plugins
 git clone https://github.com/yambo-code/aiida-yambo.git
 pip install -e aiida-yambo/
+git clone https://github.com/aiidateam/aiida-wannier90.git
+pip install -e aiida-wannier90
 git clone https://github.com/aiidaplugins/aiida-yambo-wannier90.git
 pip install -e aiida-yambo-wannier90/
 git clone https://github.com/aiidateam/aiida-wannier90-workflows.git
 pip install -e aiida-wannier90-workflows/
 pip install aiida-quantumespresso==4.4.0
+pip install click_completion
 verdi daemon stop; verdi -p generic storage migrate
 verdi daemon start
 ```
