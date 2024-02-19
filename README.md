@@ -22,7 +22,7 @@ This repository contains a collection of jupyter notebook which are meant to be 
     - [W90@QE](yambo_wannier90/1_Band_interpolation_W90_DFT.ipynb);
     - [reference QE band structure](yambo_wannier90/2_PwBands.ipynb);
     - [Fully automated W90@G0W0 interpolated band structure](yambo_wannier90/3_Band_interpolation_W90_G0W0_full.ipynb)
-    - [Analysis of W90@G0W0](yambo_wannier90/hBN_analysis.ipynb).
+    - [Analysis of W90@G0W0](yambo_wannier90/Si_analysis.ipynb).
 
 #### Prerequisites:
 
